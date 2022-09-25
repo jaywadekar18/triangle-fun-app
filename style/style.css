@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+/* font-family: 'Bungee Spice', cursive;
+font-family: 'Pacifico', cursive; */
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+nav {
+  text-align: right;
+  font-family: "Pacifico", cursive;
+}
+header {
+  background: lightgrey;
+  padding: 15px 0;
+}
+#appHeading {
+  color: rgb(231, 96, 96);
+  font-family: "Pacifico", cursive;
+  font-size: 35px;
+  margin: 0 10px;
+}
+.nav-items {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.quiz-container {
+  margin: 0 auto;
+  width: 60%;
+}
+label{
+  font-size: 20px;
+}
+.question-container {
+  margin-top: 40px;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px;
+}
+.question-container p {
+
+  font-size: 18px;
+}
+.customButton {
+  border-radius: 5px;
+  cursor: pointer;;
+  border: none;
+  background: rgb(231, 96, 96);
+  margin: 15px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.quiz-container {
+  text-align: center;
+}
+input[type=number]{
+  height: 35px;
+  border-radius: 5px;
+  width: 300px;
+  border: 1px solid red;
+}
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: lightgrey;
+  font-family: "Pacifico", cursive;
+}
+.output{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.angles-triangles-main {
+  text-align: center;
+}
+.btn-check {
+  margin-top: 20px;
+}
+
+.hypotenuse-main {
+  text-align: center;
+}
+
+.area-main {
+  text-align: center;
+}
+
+.imageContainer img {
+  height: 35px;
+  width: 35px;
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.pageTitle{
+  font-size: 30px;
+  color: rgb(231, 96, 96);
+
+}
+
+@media screen and (max-width:700px) {
+  .quiz-container {
+    width: 80%;
+  }
+  
+}
