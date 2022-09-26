@@ -90,6 +90,7 @@ footer {
 .imageContainer img {
   height: 35px;
   width: 35px;
+  margin: 0 5px;
 }
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
